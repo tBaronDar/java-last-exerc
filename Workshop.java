@@ -102,7 +102,7 @@ public class Workshop {
         // TODO: Δημιουργήστε αντικείμενα Vehicle και Computer
         // π.χ. Machinery v = new Vehicle(...); Machinery c = new Computer(...);
         Machinery m1 =new Computer("Laptop", 3);
-        Machinery m2 =new Vehicle("Kombina", 89);
+        Machinery m2 =new Vehicle("Kombina", 3189);
         Machinery m3 =new Vehicle("PC", 6);
 
         // TODO: Δημιουργήστε αντικείμενο Technician
@@ -123,7 +123,7 @@ public class Workshop {
         Person person2 = new Person("Makis");
         Person person3 = new Person("Gianna");
 
-        person1.workOn(m1);
+        person1.workOn(m3);
         person2.workOn(m2);
         person3.workOn(m1);
     }
